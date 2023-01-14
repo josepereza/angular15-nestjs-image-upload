@@ -1,0 +1,16 @@
+<h2>Listado</h2>
+
+<div class="listado">
+<div *ngFor="let item of misusuarios | async" class="card">
+    {{item.profile.displayName}}
+
+    <img src="http://localhost:3000/{{item.profile.avatar}}" width="100%" alt="">
+
+</div>
+</div>
+
+<div class="rickandmorty">
+    <div *ngFor="let item of personajesRickAndMorty | async" class="card">
+    {{item.name}}
+    </div>
+</div>

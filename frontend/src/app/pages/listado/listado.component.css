@@ -1,0 +1,14 @@
+.listado{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    text-align: center;
+}
+.card{
+    min-width: 300px;
+    width: 20%;
+    margin-left: 20px;
+}
